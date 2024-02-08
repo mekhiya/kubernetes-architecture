@@ -30,9 +30,9 @@ ETCD - data store - stores cluster configuration. Source of Truth for cluster.
 Virtual machines running in lcoud(for eg: EC2s) or on premises physical servers. 
 Provides underlying compute, storage, networking to running application.
 
--1 Kubelet
--2 Kube-proxy
--3 Container runtime
+- 1 Kubelet
+- 2 Kube-proxy
+- 3 Container runtime
 
 Kubelet - runs & manages container on node and talks to API server.
 Scheduler updates spec.NodeName -> kublet controller gets notification from API server -> it will pull docker images that reuire to run on pod 

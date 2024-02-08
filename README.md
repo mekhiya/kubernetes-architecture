@@ -45,8 +45,17 @@ Pods - smallest unit of deployment in Kubernetes as container is smallest unit o
 
 kubectl - command line utility
 
+## LIMITATIONS OF DOCKER
+- 1) single host limitation (a container taking up all resource can kill another container)
+- 2) no auto healing ( automatic start of container)
+- 3) no auto scaling
 
-
-
+## BENEFITS OF Kubernetes over Docker
+- Enterprise level standards 
+- Load balancer
+- Firewall
+- Auto scale
+- Auto Heal
+- API gateways
 
 
